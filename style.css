@@ -12,7 +12,8 @@ body, html {
 }
 
 a {
-    text-decoration: none !important;
+    text-decoration: none;
+    cursor: pointer;
     color: #415956 !important;
 }
 
