@@ -81,7 +81,7 @@ var questionArea = document.getElementsByClassName('questions')[0],
     var question = Object.keys(allQuestions)[curr];
     
     questionArea.innerHTML = '';
-    questionArea.innerHTML = question;    
+    questionArea.innerHTML = question.toUpperCase();    
   }
   
   function loadAnswers(curr) {
@@ -95,7 +95,7 @@ var questionArea = document.getElementsByClassName('questions')[0],
     
     for (var i = 0; i < answers.length -1; i += 1) {
       var createDiv = document.createElement('div'),
-          text = document.createTextNode(answers[i]);
+          text = document.createTextNode(answers[i].toUpperCase());
       
       createDiv.appendChild(text);      
       createDiv.addEventListener("click", checkAnswer(i, answers));
