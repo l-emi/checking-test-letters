@@ -3,7 +3,7 @@
 
 This is the same as the original, but with letters instead. 
 
-Code used to generate random strings of letters and the answer position: 
+Code used to generate random strings of letters and the answer position (I changed them around later to make the test more difficult): 
 
 ```javascript
 function gen(length) {
@@ -23,4 +23,4 @@ console.log("[" + "'" + gen(5) + "', '" + gen(5) + "', '" + gen(5) + "', '" + ge
 "['hbuhx', 'xdolz', 'oymek', 'mcvhb', 'xwxis', 2]"
 ```
 
-![Preview Image](http://i.imgur.com/Vbrla2U.png?1)
+![Preview Image](http://i.imgur.com/B6qxS0Q.png?1)
